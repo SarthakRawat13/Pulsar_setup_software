@@ -34,12 +34,22 @@ The script is interactive and ensures the user decides whether to update or skip
 
 3. Run the script:
    ```bash
-   ./update_system.sh
+   ./update.sh
    ```
 
 4. Follow the prompt:
    - Type `yes` (or `y`) to update the system.  
    - Type `no` (or `n`) to skip the update.  
+   
+5. Run the script:
+   ```bash
+   ./update2.sh
+   ```
+
+6. Follow the prompt:
+   - Type `yes` (or `y`) to update the system.  
+   - Type `no` (or `n`) to skip the update.  
+
 
 ---
 

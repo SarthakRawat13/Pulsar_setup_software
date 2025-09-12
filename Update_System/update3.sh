@@ -4,6 +4,7 @@
 fix_sudoers() {
     echo "Fixing sudoers permission issue..."
     chmod 440 /etc/sudoers.d/README 2>/dev/null
+    chmod 755 /etc/sudoers.d
 }
 
 # Function to fix repository sources
